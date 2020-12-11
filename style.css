@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Agrego una tipografía poppins sacada de Google Fonts
+ */body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Creo una caja con un ancho del 100% y le doy color negro*/
+header{
+    width: 100%;
+    height: 70px;
+    background: rgb(0, 0, 0);
+}
+/* Creo una caja con un ancho del 80% para centrarla dentro de la 
+caja del header */
+nav{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+/* Le cambio el tamaño a Brand Code y le doy un espacio a las letras
+de 1px */
+.logo{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.logo:hover{
+    color:rgb(199, 24, 199);
+}
+
+.enlaces a{
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.enlaces a:hover{
+    color: rgb(106, 255, 150);
+}
+span{
+    color: aqua;
+    margin: 2px;
+    font-size: 1.3em;
+}
+/* Agrego a la caja main un background y le aplico comandos para
+centrarla y que ocupe todo el espacio de la caja */
+main{
+    display: flex;
+    background: url(https://images.unsplash.com/photo-1604622245449-5be82bd4c294?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 650px;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+
+.text h1:hover{
+    color:rgb(106, 255, 150);
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-flow: row wrap;
+}
+
+.image img{
+    width: 700px;
+    height: 450px;
+    border: none;
+    border-radius: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 132px;
+    background: black;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
